@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c1dbac-d3e0-4753-940d-78ac857e1da2" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="32c1dbac-d3e0-4753-940d-78ac857e1da2" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/overPlanting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Files/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="237" />
+    <option name="myElementSize" value="265" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Java_Files" />
@@ -21,7 +23,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="minesweeper2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1USkAIr3eS6YhwGi4BFODNEHQtW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -31,37 +48,38 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="bovineBallet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bovineBallet" />
+  <component name="RunManager" selected="Application.overPlanting">
+    <configuration name="minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minesweeper" />
       <module name="Java_Files" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minNum" />
+    <configuration name="minesweeper2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minesweeper2" />
       <module name="Java_Files" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sudoku" />
+    <configuration name="minesweeper3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minesweeper3" />
+      <module name="Java_Files" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="overPlanting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="overPlanting" />
       <module name="Java_Files" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,27 +92,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threeLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threeLines" />
-      <module name="Java_Files" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.minNum" />
-      <item itemvalue="Application.sudoku" />
-      <item itemvalue="Application.threeLines" />
-      <item itemvalue="Application.bovineBallet" />
+      <item itemvalue="Application.minesweeper2" />
+      <item itemvalue="Application.minesweeper3" />
+      <item itemvalue="Application.minesweeper" />
+      <item itemvalue="Application.overPlanting" />
       <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.overPlanting" />
+        <item itemvalue="Application.minesweeper3" />
+        <item itemvalue="Application.minesweeper2" />
+        <item itemvalue="Application.minesweeper" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.bovineBallet" />
-        <item itemvalue="Application.threeLines" />
-        <item itemvalue="Application.sudoku" />
-        <item itemvalue="Application.minNum" />
       </list>
     </recent_temporary>
   </component>
@@ -109,22 +120,45 @@
       <option name="presentableId" value="Default" />
       <updated>1575357238832</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1590452801235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590452801235</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="java-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="foot.direction" language="JAVA" />
-      </configuration>
-    </watches-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="84" key="#Plugins" timestamp="1590645028579">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="320" y="84" key="#Plugins/0.23.1440.827/1440.-26.1920.1057/-1920.-16.1920.1057@0.23.1440.827" timestamp="1590645028579" />
+    <state x="443" y="128" key="SettingsEditor" timestamp="1590645851957">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="443" y="128" key="SettingsEditor/0.23.1440.827/1440.-26.1920.1057/-1920.-16.1920.1057@0.23.1440.827" timestamp="1590645851957" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Java_Files$dinnerTime.ic" NAME="dinnerTime Coverage Results" MODIFIED="1586824882099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java_Files$munching.ic" NAME="munching Coverage Results" MODIFIED="1588971291254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java_Files$dinnerTime.ic" NAME="dinnerTime Coverage Results" MODIFIED="1586824882099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java_Files$minesweeper2.ic" NAME="minesweeper2 Coverage Results" MODIFIED="1590540650595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
