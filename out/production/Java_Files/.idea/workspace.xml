@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c1dbac-d3e0-4753-940d-78ac857e1da2" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/overPlanting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Files/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="32c1dbac-d3e0-4753-940d-78ac857e1da2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/palindromicPaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +11,6 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="265" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Java_Files" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +40,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -56,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.overPlanting">
+  <component name="RunManager" selected="Application.palindromicPaths">
     <configuration name="minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minesweeper" />
       <module name="Java_Files" />
@@ -85,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="palindromicPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="palindromicPaths" />
       <module name="Java_Files" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,15 +95,15 @@
       <item itemvalue="Application.minesweeper3" />
       <item itemvalue="Application.minesweeper" />
       <item itemvalue="Application.overPlanting" />
-      <item itemvalue="Application.test" />
+      <item itemvalue="Application.palindromicPaths" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.palindromicPaths" />
         <item itemvalue="Application.overPlanting" />
         <item itemvalue="Application.minesweeper3" />
         <item itemvalue="Application.minesweeper2" />
         <item itemvalue="Application.minesweeper" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590452801235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="overPlanting">
+      <created>1590649951964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590649951964</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git ignores">
+      <created>1590650348726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590650348726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,17 +156,193 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="overPlanting" />
+    <MESSAGE value="git ignores" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignores" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="84" key="#Plugins" timestamp="1590645028579">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="320" y="84" key="#Plugins/0.23.1440.827/1440.-26.1920.1057/-1920.-16.1920.1057@0.23.1440.827" timestamp="1590645028579" />
+    <state x="274" y="25" key="CommitChangelistDialog2" timestamp="1590650348532">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="274" y="25" key="CommitChangelistDialog2/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590650348532" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1590649980525">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980525" />
+    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1590649980524">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980524" />
+    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1590649980524">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980524" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1590649980525">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980525" />
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom" timestamp="1590649980523">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980523" />
+    <state width="1398" height="318" key="GridCell.Tab.1.center" timestamp="1590649980522">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.center/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980522" />
+    <state width="1398" height="318" key="GridCell.Tab.1.left" timestamp="1590649980521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.left/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980521" />
+    <state width="1398" height="318" key="GridCell.Tab.1.right" timestamp="1590649980523">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.right/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590649980523" />
     <state x="443" y="128" key="SettingsEditor" timestamp="1590645851957">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="443" y="128" key="SettingsEditor/0.23.1440.827/1440.-26.1920.1057/-1920.-16.1920.1057@0.23.1440.827" timestamp="1590645851957" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1590650352187">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1590650352187" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/overPlanting.java</url>
+          <line>89</line>
+          <properties class="overPlanting" method="getSize">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Files$munching.ic" NAME="munching Coverage Results" MODIFIED="1588971291254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
