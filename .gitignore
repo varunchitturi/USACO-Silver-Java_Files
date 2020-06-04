@@ -8,3 +8,5 @@ out/production/Java_Files/.idea/workspace.xml
 /.idea/misc 2.xml
 .DS_Store
 *.xml
+.idea/fileTemplates/
+.idea
