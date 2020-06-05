@@ -1,5 +1,4 @@
-/out/
-out/production/Java_Files/.idea/workspace.xml
+out/production/Java_Files/.idea
 /.Java_Files.iml.icloud
 /.idea/.misc.xml.icloud
 /.idea/.modules.xml.icloud
@@ -8,5 +7,6 @@ out/production/Java_Files/.idea/workspace.xml
 /.idea/misc 2.xml
 .DS_Store
 *.xml
+*.iml
 .idea/fileTemplates/
 .idea
