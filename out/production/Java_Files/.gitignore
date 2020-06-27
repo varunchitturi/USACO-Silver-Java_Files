@@ -6,7 +6,6 @@ out/production/Java_Files/.idea
 /.idea/modules 2.xml
 /.idea/misc 2.xml
 .DS_Store
-*.xml
 *.iml
 .idea/fileTemplates/
 .idea
