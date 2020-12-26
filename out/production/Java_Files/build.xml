@@ -1,5 +1,5 @@
 <project default="compile">
     <target name="compile">
-        <javac srcdir="../Java_Files" destdir="out/production/Java_Files"/>
+        <javac srcdir="src" destdir="out/production/Java_Files"/>
     </target>
 </project>
